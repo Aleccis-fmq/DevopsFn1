@@ -1,0 +1,37 @@
+/* Style the container for form fields and image */
+.form-container {
+  display: flex; /* Arrange items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to next line */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space items evenly */
+  padding: 20px; /* Add padding around content */
+  border-radius: 5px; /* Soften edges */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  max-width: 500px; /* Adjust maximum width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Style the form fields */
+mat-form-field {
+  width: 100%; /* Make fields fill available width */
+  margin-bottom: 10px; /* Add spacing between fields */
+}
+
+input[matInput] {
+  border-bottom: 1px solid #ccc; /* Light border for input fields */
+  color: #333; /* Dark text color */
+  background-color: transparent; /* Transparent background */
+  font-size: 16px; /* Adjust font size as desired */
+  padding: 10px; /* Add padding for input fields */
+}
+
+/* Style the image */
+img {
+  margin-bottom: 10px; /* Add spacing below image */
+  border-radius: 5px; /* Rounded corners for image */
+}
+
+/* Style the buttons */
+button {
+  margin-right: 10px; /* Add spacing between buttons */
+}

@@ -1,0 +1,99 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+}
+
+
+.example-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #e0ffff; /* BLANCOr */
+  color: #333; /*  */
+}
+
+.example-app-name {
+  font-size: 1.5rem;
+  font-weight: bold; /* bold*/
+  margin: 0;
+  color: #333; /* Dark */
+}
+
+
+.example-sidenav-container {
+  display: flex;
+}
+
+.mat-sidenav {
+  width: 240px; /* Adjust width for navigation */
+  background-color: #fff; /* Light background for navigation */
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.mat-sidenav-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .example-sidenav-container {
+    flex-direction: column;
+  }
+
+  .mat-sidenav {
+    flex: 1;
+  }
+
+  .mat-sidenav-content {
+    padding: 0;
+  }
+}
+
+/* Menu button styling */
+mat-icon-button {
+  color: inherit;
+}
+
+/* Menu styling (optional) */
+mat-menu {
+  background-color: #fff;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu item styling */
+mat-menu-item {
+  padding: 12px; /* Consistent padding for menu items */
+  cursor: pointer;
+  color: #333; /* Dark text color for menu items */
+}
+
+mat-menu-item:hover {
+  background-color: #f5f5f5; /* Light background on hover */
+}
+
+/* Divider styling */
+mat-divider {
+  background-color: #f1f1f1;
+  height: 1px;
+  margin: 8px 0; /* Add some spacing around dividers */
+}
+
+/* Profile picture styling */
+.mat-sidenav .mat-list-item-content img {
+  width: 50px; /* Adjust profile picture size */
+  height: 50px;
+  border-radius: 50%; /* Make profile picture circular */
+  margin-right: 15px; /* Add margin for spacing */
+}
+
+/* Icon styling */
+mat-icon {
+  color: #c51162; /* Primary color for icons (pink) */
+}
+
+/* Button styling (optional, for future use) */
+/* ... Add button styles here ... */

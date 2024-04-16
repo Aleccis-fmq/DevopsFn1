@@ -1,0 +1,53 @@
+/* Product table container styling */
+.example-container {
+  padding: 1rem; /* Add some padding for the container */
+  background-color: #fff; /* White background for clarity */
+  border-radius: 5px; /* Soften edges */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Search bar styling */
+.example-header {
+  margin-bottom: 1rem; /* Add some margin below the search bar */
+}
+
+mat-form-field {
+  width: 100%; /* Make the search bar fill the available space */
+}
+
+input[matInput] {
+  color: #333; /* Dark text color for search input */
+}
+
+/* Mat-paginator styling */
+.mat-paginator {
+  display: flex;
+  justify-content: flex-end; /* Align pagination controls to the right */
+  padding: 1rem; /* Add some padding for pagination */
+}
+
+/* Floating action button styling */
+mat-fab {
+  margin: 1rem; /* Add some margin for the button */
+  background-color: #c51162; /* Primary color (pink) for button */
+  color: white; /* White text color for button */
+}
+
+mat-fab:hover {
+  background-color: #99003c; /* Darker shade on hover */
+}
+
+/* Table styling (optional, for minor adjustments) */
+table {
+  /* You can add minor adjustments here if needed,
+     like adjusting font size or borders for consistency */
+}
+
+th,
+td {
+  /* You can adjust font size or padding here if needed */
+}
+
+mat-header-cell {
+  /* You can adjust font size or background color here if needed */
+}

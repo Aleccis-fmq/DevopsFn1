@@ -1,0 +1,140 @@
+-- creaciones
+INSERT INTO proveedor (nombres, apellidos, direccion, dni, email, telefono) VALUES 
+('Juan', 'Gómez', 'Calle Flores 123', '12345678', 'juan.gomez@example.com', '123456789'),
+('María', 'Martínez', 'Avenida del Rosal 456', '23456789', 'maria.martinez@example.com', '234567890'),
+('Pedro', 'López', 'Boulevard de las Margaritas 789', '34567890', 'pedro.lopez@example.com', '345678901'),
+('Ana', 'Rodríguez', 'Calle Girasol 234', '45678901', 'ana.rodriguez@example.com', '456789012'),
+('Luis', 'Fernández', 'Avenida de la Orquídea 567', '56789012', 'luis.fernandez@example.com', '567890123'),
+('Elena', 'González', 'Calle de los Lirios 890', '67890123', 'elena.gonzalez@example.com', '678901234'),
+('Carlos', 'Sánchez', 'Avenida de las Rosas 123', '78901234', 'carlos.sanchez@example.com', '789012345'),
+('Laura', 'Pérez', 'Calle del Clavel 456', '89012345', 'laura.perez@example.com', '890123456'),
+('Pablo', 'Díaz', 'Avenida del Tulipán 789', '90123456', 'pablo.diaz@example.com', '901234567'),
+('Sofía', 'Ruiz', 'Boulevard de las Calas 234', '01234567', 'sofia.ruiz@example.com', '012345678'),
+('María', 'López', 'Avenida Principal 456', '87654321', 'maria.lopez@example.com', '987654321'),
+('Carlos', 'Martínez', 'Calle Mayor 789', '56789012', 'carlos.martinez@example.com', '456789012'),
+('Ana', 'Rodríguez', 'Plaza Central 101', '34567890', 'ana.rodriguez@example.com', '345678901'),
+('Pedro', 'Sánchez', 'Avenida del Sol 222', '23456789', 'pedro.sanchez@example.com', '234567890'),
+('Laura', 'García', 'Calle Luna 333', '12345678', 'laura.garcia@example.com', '123456789'),
+('Pablo', 'Fernández', 'Calle Estrella 444', '34567890', 'pablo.fernandez@example.com', '345678901'),
+('Sofía', 'Díaz', 'Avenida del Parque 555', '56789012', 'sofia.diaz@example.com', '567890123'),
+('David', 'Gutiérrez', 'Calle del Río 666', '78901234', 'david.gutierrez@example.com', '789012345'),
+('Elena', 'Moreno', 'Plaza del Mercado 777', '90123456', 'elena.moreno@example.com', '901234567'),
+('Javier', 'Ruiz', 'Avenida de la Paz 888', '67890123', 'javier.ruiz@example.com', '678901234');
+
+
+INSERT INTO producto (apellidos, nombres, cmp, foto_url) VALUES 
+('Lirios', 'Lyli', '12345', 'https://i.pinimg.com/564x/18/6c/5a/186c5a1a605b7f8412eca2206628d1a9.jpg'),
+('Rosas', 'Rosa', '54321', 'https://i.pinimg.com/564x/a9/1b/2e/a91b2e059831b4ab08fcf3a2daaa48c3.jpg'),
+('Girasoles', 'Gira', '67890', 'https://i.pinimg.com/564x/89/1d/32/891d322ef3a672e5d4d2363d8c9f7a2d.jpg'),
+('Tulipanes', 'Tuli', '24680', 'https://i.pinimg.com/564x/20/3c/89/203c89232b8e5eb2ef3dfad2cf8c674d.jpg'),
+('Orquídeas', 'Orqui', '13579', 'https://i.pinimg.com/564x/39/6d/8a/396d8a36774e45db59ed9f55d5bfafed.jpg'),
+('Margaritas', 'Marga', '97531', 'https://i.pinimg.com/564x/3c/24/3e/3c243e0b009ff0c9b821695ea3a6f4c0.jpg'),
+('Lilis', 'Lili', '80246', 'https://i.pinimg.com/564x/c2/49/3b/c2493b85a0cb1bc2d97183a8cc1c7065.jpg'),
+('Calas', 'Cala', '46789', 'https://i.pinimg.com/564x/20/56/4d/20564db6bf4e56d1a0f4d46b29ec61dc.jpg'),
+('Crisantemos', 'Cris', '36925', 'https://i.pinimg.com/564x/19/b3/68/19b3680271d0c6470816e971b384c3bc.jpg'),
+('Jazmines', 'Jaz', '25987', 'https://i.pinimg.com/564x/3f/c2/08/3fc2085b0dbba4b6c8ab7b7e3d8b37ef.jpg'),
+('Begonias', 'Bego', '78965', 'https://i.pinimg.com/564x/05/71/bb/0571bbbdce1cf63d70b92aa2b09dd08f.jpg'),
+('Hortensias', 'Horti', '45632', 'https://i.pinimg.com/564x/5c/c4/2b/5cc42b52b9d0ab46fd31573eb5b14d5e.jpg'),
+('Dalias', 'Dali', '12309', 'https://i.pinimg.com/564x/2c/38/1e/2c381e51b7c5deff15bde38edc2b38b8.jpg'),
+('Claveles', 'Clave', '89012', 'https://i.pinimg.com/564x/3b/8f/8d/3b8f8d0622345462b0ef3b3e860c31b7.jpg'),
+('Amapolas', 'Ama', '45678', 'https://i.pinimg.com/564x/5c/8a/6d/5c8a6da65ef7da4318f389f1cf0b7b51.jpg'),
+('Alcatraces', 'Alca', '78901', 'https://i.pinimg.com/564x/6c/da/37/6cda377fb80ac7b1a275c9f49d3a0fd7.jpg'),
+('Azucenas', 'Azu', '23456', 'https://i.pinimg.com/564x/94/b2/2f/94b22f8b2fb4b76debea97c3f66b1bd7.jpg'),
+('Miosotis', 'Mio', '56789', 'https://i.pinimg.com/564x/20/7e/a1/207ea1dbf7b3754a2f5e07792e7582cd.jpg'),
+('Asteres', 'Asti', '90876', 'https://i.pinimg.com/564x/a4/ba/45/a4ba45deec7c2b9408d10ef28f4a1a09.jpg'),
+('Camelias', 'Came', '12345', 'https://i.pinimg.com/564x/3a/1b/6b/3a1b6bfe1a3d847dcd2e299fd9cb4e4f.jpg');
+
+INSERT INTO categoria (descripcion, nombre) VALUES 
+('Flores decorativas.', 'Ornamental'),
+('Flores comestibles.', 'Comestible'),
+('Flores medicinales.', 'Medicinal'),
+('Flores aromáticas.', 'Aromática'),
+('Flores silvestres o nativas.', 'Silvestre o Nativa'),
+('Flores protegidas o en peligro de extinción.', 'Especies en Peligro de Extinción o Protegidas');
+
+
+INSERT INTO observacion (descripcion, nombre) VALUES 
+('La flor se encuentra en perfectas condiciones y cumple con los estándares de calidad establecidos.', 'Aprobado'),
+('La flor tiene algunas imperfecciones menores pero aún se considera aceptable para la venta.', 'Aprobado con observaciones'),
+('La flor está marchita y no cumple con los estándares de calidad.', 'Desaprobado');
+
+
+--usu
+insert into usuario(id_usuario,nombre,clave,estado) values 
+(1,'admin','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG','1'),
+(2,'alexis-fl-live@hotmail.com','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG','1'),
+(3,'alexisxscfe@gmail.com','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG','1');
+
+insert into rol (id_rol,nombre,descripcion) values
+(1,'ADMIN','Administrador'),
+(2,'WORK','Usuario'),
+(3,'DBA','Admin bd');
+
+insert into usuario_rol (id_usuariof,id_rolf) values
+(1,1),
+(2,1),
+(3,2);
+
+
+-- Ingreso de datos de menu
+insert into menu (id_menu,nombre,icono,url)Values
+(1,'Inicio','home','/pages/inicio'),
+(2,'Buscar','search','/pages/buscar'),
+(3,'Registrar','insert_drive_file','/pages/consulta'),
+(4,'Registrar E.','insert_drive_file','/pages/consulta-especial'),
+(5,'Registrar W.','view_carousel','/pages/consulta-wizard'),
+(6,'Categoria','star_rate','/pages/categoria'),
+(7,'Productos','healing','/pages/producto'),
+(8,'Observaciones','assignment','/pages/observacion'),
+(9,'Proveedores','accessibility','/pages/proveedor'),
+(10,'Reportes','assessment','/pages/reporte');
+
+
+
+insert into menu_rol 
+(id_menu,id_rol)
+values
+(1,1),
+(2,1),
+(3,1),
+(4,1),
+(5,1),
+(6,1),
+(7,1),
+(8,1),
+(9,1),
+(10,1),
+
+(1,2),
+(2,2),
+(5,2),
+(7,2),
+(10,2);
+
+
+create table oauth_access_token (
+  token_id VARCHAR(256),
+  token bytea,
+  authentication_id VARCHAR(256),
+  user_name VARCHAR(256),
+  client_id VARCHAR(256),
+  authentication bytea,
+  refresh_token VARCHAR(256)
+);
+
+
+select * from oauth_access_token;
+
+
+delete  from oauth_access_token;
+delete from oauth_refresh_token;
+
+create table oauth_refresh_token (
+  token_id VARCHAR(256),
+  token bytea,
+  authentication bytea
+);
+
+select * from oauth_refresh_token;
+
+

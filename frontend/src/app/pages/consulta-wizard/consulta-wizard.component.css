@@ -1,0 +1,117 @@
+/* Overall form container styling (applies to all steps) */
+.example-container {
+  padding: 1rem; /* Add some padding for the container */
+  background-color: #fff; /* White background for clarity */
+  border-radius: 5px; /* Soften edges */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Slide toggle styling */
+mat-slide-toggle {
+  margin-bottom: 1rem; /* Add some margin below the toggle */
+}
+
+/* Mat-form-field styling (applies to all steps) */
+mat-form-field {
+  width: 100%; /* Make form fields fill the available space */
+  margin-bottom: 1rem; /* Add spacing between fields */
+}
+
+input[matInput] {
+  border-bottom: 1px solid #f1f1f1; /* Light border for input fields */
+  color: #333; /* Dark text color */
+  background-color: transparent; /* Transparent background */
+}
+
+/* Mat-select styling (applies to all steps) */
+mat-select {
+  width: 100%; /* Make select fields fill the available space */
+}
+
+/* Datepicker styling (applies to step 1) */
+mat-form-field.mat-datepicker-toggle {
+  margin-bottom: 0; /* Remove bottom margin for date picker field */
+}
+
+/* Button styling (applies to all steps) */
+mat-raised-button {
+  margin: 0.5rem 1rem; /* Adjust margins for buttons */
+}
+
+button[color="primary"] {
+  background-color: #c51162; /* Primary color (pink) for buttons */
+  color: white; /* White text color */
+}
+
+button[color="accent"] {
+  background-color: #4caf50; /* Green for buttons */
+  color: white; /* White text color */
+}
+
+button[color="warn"] {
+  background-color: #f44336; /* Red for delete buttons */
+  color: white; /* White text color */
+}
+
+button:hover {
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Mat-expansion-panel styling (applies to step 1) */
+mat-expansion-panel {
+  margin-bottom: 1rem; /* Add space between panels */
+}
+
+/* Mat-toolbar styling (applies to step 1) */
+mat-toolbar {
+  background-color: #e0ffff; /* Light pastel green for toolbar */
+  color: #333; /* Dark text color for toolbar title */
+  padding: 0.5rem 1rem; /* Adjust padding for toolbar content */
+  margin-bottom: 1rem; /* Add space below toolbar */
+}
+
+.example-spacer {
+  flex: 1 1 auto; /* Allow flexible spacing within toolbar */
+}
+
+/* Mat-card styling (applies to step 1) */
+.container {
+  display: flex; /* Allow cards to arrange horizontally */
+  flex-wrap: wrap; /* Wrap cards if needed */
+  justify-content: space-between; /* Distribute cards evenly */
+  margin-bottom: 1rem; /* Add space below cards */
+}
+
+
+
+
+mat-card-header {
+  padding: 0.5rem 1rem; /* Adjust padding for card header content */
+}
+
+mat-card-title {
+  font-weight: bold; /* Make card title bold */
+}
+
+/* Mat-card image styling (applies to step 1) */
+/* Mat-card image styling (applies to step 1) */
+
+
+
+
+/* Mat-stepper navigation buttons (applies to all steps) */
+.mat-stepper-next,
+.mat-stepper-previous {
+  margin: 1rem 0.5rem; /* Adjust margins for navigation buttons */
+}
+
+
+.consultorioCSS {
+  background: green;
+  color: white;
+}
+
+.medicoCSS {
+  background: green;
+  color: white;
+}

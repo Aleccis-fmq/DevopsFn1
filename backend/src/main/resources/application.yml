@@ -1,0 +1,21 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: alexisxscfl@gmail.com
+    #password personal del correo 
+    #cambiar useranme por correo 
+    #cambiar el passowrd por clave propia de correo con autorizacion para correos
+    password: lggg nymu mmsu crwq
+    port: 587
+    properties:
+      mail:
+        ssl:
+          enable: true
+        smtp:
+          auth: true
+          starttls:
+            enable: true       
+            required: true     
+    protocol: smtp
+    test-connection: false

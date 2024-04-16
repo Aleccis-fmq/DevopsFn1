@@ -1,0 +1,25 @@
+/* Estilos para los encabezados */
+.mat-h2 {
+    text-align: center; /* Alineación al centro */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilos para las tarjetas */
+.example-card {
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilos para los encabezados de las tarjetas */
+.mat-card-header {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+}
+
+.mat-card-title, .mat-card-subtitle {
+    color: white; /* Color del texto */
+}
+
+/* Estilos para el contenido de las tarjetas */
+.mat-card-content {
+    padding: 15px; /* Espaciado interno */
+}

@@ -1,0 +1,80 @@
+/* Overall form container styling */
+.example-container {
+  padding: 1rem; /* Add some padding for the container */
+  background-color: #fff; /* White background for clarity */
+  border-radius: 5px; /* Soften edges */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Mat-toolbar styling */
+mat-toolbar {
+  background-color: #e0ffff; /* Light pastel green for toolbar */
+  color: #333; /* Dark text color for toolbar title */
+  padding: 0.5rem 1rem; /* Adjust padding for toolbar content */
+  margin-bottom: 1rem; /* Add space below toolbar */
+}
+
+.example-spacer {
+  flex: 1 1 auto; /* Allow flexible spacing within toolbar */
+}
+
+/* Mat-form-field styling */
+mat-form-field {
+  width: 100%; /* Make form fields fill the available space */
+  margin-bottom: 1rem; /* Add spacing between fields */
+}
+
+input[matInput] {
+  border-bottom: 1px solid #f1f1f1; /* Light border for input fields */
+  color: #333; /* Dark text color */
+  background-color: transparent; /* Transparent background */
+}
+
+/* Mat-select styling */
+mat-select {
+  width: 100%; /* Make select fields fill the available space */
+}
+
+/* Datepicker styling */
+mat-form-field.mat-datepicker-toggle {
+  margin-bottom: 0; /* Remove bottom margin for date picker field */
+}
+
+/* Button styling */
+mat-raised-button {
+  margin: 0.5rem 1rem; /* Adjust margins for buttons */
+}
+
+button[color="primary"] {
+  background-color: #c51162; /* Primary color (pink) for buttons */
+  color: white; /* White text color */
+}
+
+button[color="accent"] {
+  background-color: #4caf50; /* Green for buttons */
+  color: white; /* White text color */
+}
+
+button[color="warn"] {
+  background-color: #f44336; /* Red for delete buttons */
+  color: white; /* White text color */
+}
+
+button:hover {
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Mat-expansion-panel styling */
+mat-expansion-panel {
+  margin-bottom: 1rem; /* Add space between panels */
+}
+
+/* Mat-toolbar styling (for examenes list) */
+mat-toolbar {
+  background-color: #f5f5f5; /* Light gray for examenes list */
+  color: #333; /* Dark text color for examenes list */
+  padding: 0.25rem 0.5rem; /* Reduce padding for examenes list */
+  margin: 0.25rem 0; /* Adjust margin for examenes list */
+}
+
+/* You can add additional styles for specific elements as needed */

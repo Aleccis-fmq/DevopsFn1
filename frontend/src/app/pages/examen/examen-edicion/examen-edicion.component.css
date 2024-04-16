@@ -1,0 +1,38 @@
+/* Form container styling */
+.example-container {
+  padding: 1rem; /* Add some padding for the container */
+  background-color: #fff; /* White background for clarity */
+  border-radius: 5px; /* Soften edges */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Form field styling */
+mat-form-field {
+  width: 100%; /* Make form fields fill the available space */
+  margin-bottom: 1rem; /* Add spacing between fields */
+}
+
+input[matInput] {
+  border-bottom: 1px solid #f1f1f1; /* Light border for input fields */
+  color: #333; /* Dark text color */
+  background-color: transparent; /* Transparent background */
+}
+
+/* Button styling */
+mat-raised-button {
+  margin: 1rem; /* Add spacing around buttons */
+}
+
+button[color="primary"] {
+  background-color: #c51162; /* Primary color (pink) for the accept button */
+  color: white; /* White text color */
+}
+
+button[color="accent"] {
+  background-color: #4caf50; /* Green for the cancel button */
+  color: white; /* White text color */
+}
+
+button:hover {
+  cursor: pointer; /* Add a pointer cursor on hover */
+}

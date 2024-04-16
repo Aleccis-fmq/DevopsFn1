@@ -1,0 +1,49 @@
+/* Table styling */
+table {
+  width: 100%; /* Make the table fill the available space */
+  border-collapse: collapse; /* Remove borders between cells */
+}
+
+th,
+td {
+  padding: 16px; /* Add some padding to cells */
+  border: 1px solid #f1f1f1; /* Light border for cells */
+  text-align: left; /* Align text to the left */
+  font-size: 0.875rem; /* Adjust font size for better readability */
+}
+
+th {
+  background-color: #e0ffff; /* Light pastel green for table headers */
+  color: #333; /* Dark text color for headers */
+}
+
+/* Search bar styling */
+.example-header {
+  margin-bottom: 1rem; /* Add some margin below the search bar */
+}
+
+mat-form-field {
+  width: 100%; /* Make the search bar fill the available space */
+}
+
+input[matInput] {
+  color: #333; /* Dark text color for search input */
+}
+
+/* Mat-paginator styling */
+.mat-paginator {
+  display: flex;
+  justify-content: flex-end; /* Align pagination controls to the right */
+  padding: 1rem; /* Add some padding for pagination */
+}
+
+/* Floating action button styling */
+mat-fab {
+  margin: 1rem; /* Add some margin for the button */
+  background-color: #c51162; /* Primary color (pink) for button */
+  color: white; /* White text color for button */
+}
+
+mat-fab:hover {
+  background-color: #99003c; /* Darker shade on hover */
+}

@@ -1,0 +1,41 @@
+
+CREATE OR REPLACE FUNCTION fn_listarResumen () 
+ RETURNS TABLE (
+ cantidad INT,
+ fecha TEXT
+) 
+AS $$
+DECLARE 
+    var_r record;
+BEGIN
+FOR var_r IN(
+	select (count(*)::int) as cantidad, to_char(c.fecha, 'dd/MM/yyyy') as fecha from consulta c 
+	group by to_char(c.fecha, 'dd/MM/yyyy') order by to_char(c.fecha, 'dd/MM/yyyy') asc 
+	)  
+ LOOP
+        cantidad := var_r.cantidad; 
+ 		fecha := var_r.fecha;
+        RETURN NEXT;
+ END LOOP;
+END; $$ 
+LANGUAGE 'plpgsql';
+
+
+create table oauth_access_token (
+  token_id VARCHAR(256),
+  token bytea,
+  authentication_id VARCHAR(256),
+  user_name VARCHAR(256),
+  client_id VARCHAR(256),
+  authentication bytea,
+  refresh_token VARCHAR(256)
+);
+
+create table oauth_refresh_token (
+  token_id VARCHAR(256),
+  token bytea,
+  authentication bytea
+);
+
+
+eva 3
